@@ -28,13 +28,11 @@ h2 {
 }
 
 .flappy-js {
-  background-image: url("fb-game-background.png");
-  padding: 60px;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    background-image: url("fb-game-background.png");
+    height: 580px;
+    width: 100%;
+    position: absolute
+  }
 
 .html-img {
   text-align: center;
