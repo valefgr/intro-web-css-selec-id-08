@@ -1,50 +1,44 @@
-*{
-    font-family: Lucida Sans', Verdana, sans-serif;
+* {
+  font-family: "Lucida Sans", Verdana, sans-serif;
 }
 
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+  font-family: "Courier New", Courier, monospace;
 }
 
-h2{
-    align-items: center;
+h2 {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("bg.jpg");
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.html-exp,
+.css-exp,
+.js-exp {
+  padding: 60px;
+}
+
+.flappy-js {
+  background-image: url("fb-game-background.png");
+  padding: 60px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.html-img {
+  text-align: center;
 }
 
 
-
-.banner{
-        background-image: url("bg.jpg");
-        color: white;
-        padding: 100px; 
-        text-align: center;
-}
-
-
-
-
-.html-exp, .css-exp, .js-exp{
-    padding: 60px;
-}
-        
-
-
-.flappy-js{
-    background-image: url("fb-game-background.png");
-    padding: 60px;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-      
-
-/* Ejercicio 1.
-    Agrega el selector id "#flappy-bird"
-
-   Ejercicio 2.
-    Agregar la propiedad "position: ;" con el valor "absolute"
-*/
+/* Agrega tu código aquí */
